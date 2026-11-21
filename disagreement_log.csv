@@ -1,0 +1,78 @@
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,hand,side,khác giá trị (IoU=0.88),right,left,mine,"4.4-2, 4.7",Giữ mine: Một người chỉ có 1 tay trái và 1 tay phải. Peer gán cả 2 tay cùng side=left là sai guideline.
+D01.png,person,seatbelt,khác giá trị (IoU=0.93),not_worn,unknown,ambiguous,"4.4-1, 4.7","Thảo luận: Nếu dây chéo thấy rõ thì mine đúng, nếu góc khuất/tối chìm vào áo thì chọn unknown như peer."
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D02.png,face,eye_left,khác giá trị (IoU=0.84),unknown,open,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+D02.png,face,eye_right,khác giá trị (IoU=0.84),unknown,open,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+D02.png,face,glasses,khác giá trị (IoU=0.84),sun,clear,mine,4.5,"Giữ mine: Tài xế đeo kính râm (sun), dưới tia NIR tròng kính râm có thể nhìn xuyên qua."
+D02.png,hand,side,khác giá trị (IoU=0.78),right,left,mine,"4.4-2, 4.7",Giữ mine: Một người chỉ có 1 tay trái và 1 tay phải. Peer gán cả 2 tay cùng side=left là sai guideline.
+D02.png,face13,lip_lower.occluded,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D03.png,hand,side,khác giá trị (IoU=0.71),right,left,mine,"4.4-2, 4.7",Giữ mine: Một người chỉ có 1 tay trái và 1 tay phải. Peer gán cả 2 tay cùng side=left là sai guideline.
+D04.png,person,seatbelt,khác giá trị (IoU=0.90),worn_correct,unknown,ambiguous,"4.4-1, 4.7","Thảo luận: Nếu dây chéo thấy rõ thì mine đúng, nếu góc khuất/tối chìm vào áo thì chọn unknown như peer."
+D04.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.45,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+D04.png,hand,side,khác giá trị (IoU=0.78),right,left,mine,"4.4-2, 4.7",Giữ mine: Một người chỉ có 1 tay trái và 1 tay phải. Peer gán cả 2 tay cùng side=left là sai guideline.
+D04.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+D05.png,hand,side,khác giá trị (IoU=0.77),right,left,mine,"4.4-2, 4.7",Giữ mine: Một người chỉ có 1 tay trái và 1 tay phải. Peer gán cả 2 tay cùng side=left là sai guideline.
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D05.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,Giữ mine: Điểm bị bóng chói đèn LED hoặc tròng kính che bật occluded=1 nếu đoán chắc vị trí.
+D06.png,hand,side,khác giá trị (IoU=0.89),right,left,mine,"4.4-2, 4.7",Giữ mine: Một người chỉ có 1 tay trái và 1 tay phải. Peer gán cả 2 tay cùng side=left là sai guideline.
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S02_ir.png,face,eye_left,khác giá trị (IoU=0.66),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S02_ir.png,face,eye_right,khác giá trị (IoU=0.66),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S02_ir.png,face,glasses,khác giá trị (IoU=0.66),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S02_rgb.png,face,eye_left,khác giá trị (IoU=0.68),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S02_rgb.png,face,eye_right,khác giá trị (IoU=0.68),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S02_rgb.png,face,glasses,khác giá trị (IoU=0.68),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S03_ir.png,child_seat,occupied,khác giá trị (IoU=0.97),no,yes,mine,"4.1, 4.8","Giữ mine: child_seat chỉ nhận giá trị unknown hoặc no, không có giá trị yes. Peer gán yes là sai schema."
+S03_rgb.png,child_seat,occupied,khác giá trị (IoU=0.93),no,yes,mine,"4.1, 4.8","Giữ mine: child_seat chỉ nhận giá trị unknown hoặc no, không có giá trị yes. Peer gán yes là sai schema."
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.93),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S04_ir.png,face,glasses,khác giá trị (IoU=0.93),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S04_rgb.png,face,eye_right,khác giá trị (IoU=0.92),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S04_rgb.png,face,glasses,khác giá trị (IoU=0.92),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_ir.png,face,eye_left,khác giá trị (IoU=0.73),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_ir.png,face,eye_right,khác giá trị (IoU=0.73),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_ir.png,face,glasses,khác giá trị (IoU=0.73),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.89),no,yes,mine,"4.1, 4.8","Giữ mine: child_seat chỉ nhận giá trị unknown hoặc no, không có giá trị yes. Peer gán yes là sai schema."
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.85),no,yes,mine,"4.1, 4.8","Giữ mine: child_seat chỉ nhận giá trị unknown hoặc no, không có giá trị yes. Peer gán yes là sai schema."
+S05_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.89),no,yes,mine,"4.1, 4.8","Giữ mine: child_seat chỉ nhận giá trị unknown hoặc no, không có giá trị yes. Peer gán yes là sai schema."
+S05_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S05_rgb.png,face,eye_left,khác giá trị (IoU=0.61),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_rgb.png,face,eye_right,khác giá trị (IoU=0.61),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_rgb.png,face,glasses,khác giá trị (IoU=0.61),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.88),no,yes,mine,"4.1, 4.8","Giữ mine: child_seat chỉ nhận giá trị unknown hoặc no, không có giá trị yes. Peer gán yes là sai schema."
+S06_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S07_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S07_ir.png,face,eye_left,khác giá trị (IoU=0.93),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S07_ir.png,face,eye_right,khác giá trị (IoU=0.93),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S07_ir.png,face,glasses,khác giá trị (IoU=0.93),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S07_ir.png,infant_seat,facing,khác giá trị (IoU=0.88),rear,front,mine,"4.1, 4.8",Giữ mine: Nôi sơ sinh quay mặt về phía sau xe (rear-facing).
+S07_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S07_rgb.png,infant_seat,facing,khác giá trị (IoU=0.94),rear,front,mine,"4.1, 4.8",Giữ mine: Nôi sơ sinh quay mặt về phía sau xe (rear-facing).
+S07_rgb.png,face,eye_left,khác giá trị (IoU=0.75),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S07_rgb.png,face,eye_right,khác giá trị (IoU=0.75),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S07_rgb.png,face,glasses,khác giá trị (IoU=0.75),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S08_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S08_ir.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,mine,"4.1, 4.8",Giữ mine: Nôi sơ sinh quay mặt về phía sau xe (rear-facing).
+S08_ir.png,face,eye_left,khác giá trị (IoU=0.72),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S08_ir.png,face,eye_right,khác giá trị (IoU=0.72),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S08_ir.png,face,glasses,khác giá trị (IoU=0.72),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S08_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,4.4-5,Căn chỉnh lại box ôm sát mép đối tượng hơn để đồng thuận IoU >= 0.5.
+S08_rgb.png,infant_seat,facing,khác giá trị (IoU=0.95),rear,front,mine,"4.1, 4.8",Giữ mine: Nôi sơ sinh quay mặt về phía sau xe (rear-facing).
+S08_rgb.png,face,eye_left,khác giá trị (IoU=0.72),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S08_rgb.png,face,eye_right,khác giá trị (IoU=0.72),open,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
+S08_rgb.png,face,glasses,khác giá trị (IoU=0.72),none,unknown,ambiguous,"4.4-1, 4.5","Thảo luận: Mắt thấy khe mở thì open, nếu khoảng cách xa/IR mờ thì unknown là an toàn theo quy tắc 4.4-1."
