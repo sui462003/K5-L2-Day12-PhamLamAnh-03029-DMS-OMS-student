@@ -1,0 +1,8 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Mất hoàn toàn thông tin màu sắc họa tiết trên vải bọc ghế trẻ em so với ảnh RGB,object_type,Chỉ nhận diện qua biên dạng hình học và bóng đổ thay vì màu sắc
+S02_ir,IR_sim,Khu vực ghế sau bên phải tối do nguồn sáng mô phỏng không phủ đều,seatbelt,Ghi unknown do không phân biệt được dải dây trên nền nỉ tối
+S04_ir,IR_sim,Ảnh hồng ngoại mô phỏng kênh đỏ không tái hiện được hiện tượng chói lóa hay phản xạ mắt,eye_state,Vẫn nhìn rõ viền mắt như ảnh grayscale thông thường
+D01,real_IR,Đèn chiếu NIR làm sáng rực khuôn mặt nhưng bóng đổ gắt dưới cằm che mất cổ áo,seatbelt,Chuyển sang unknown nếu không thấy rõ điểm neo dây vai
+D02,real_IR,Tia NIR xuyên qua tròng kính râm tối màu để lộ khe mắt bên trong,glasses,Gán glasses=sun theo gọng/dáng nhưng vẫn quan sát được trạng thái mí mắt
+D03,real_IR,Đốm phản xạ đèn LED hồng ngoại (hotspot) trên tròng kính che mất con ngươi và khóe mắt phải,eye_right,Ghi unknown và bật cờ occluded=1 cho các điểm face13 tương ứng
+D05,real_IR,Màn hình điện thoại phát sáng mạnh làm viền ngón tay cầm máy bị lóa sáng trên camera NIR,phone_state,Nhận diện phone state=held nhờ cạnh viền sáng và tư thế tay

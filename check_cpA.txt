@@ -1,0 +1,6 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02
+Ảnh: 4 · đã có frame_meta: 3 · số đối tượng: child_seat=2, face=2, infant_seat=4, person=4
+  [WARN] S02_ir.png: ghế rear_left có nhiều box cùng loại: ['person', 'person']
+  [ERROR] S02_rgb.png: cần đúng 1 tag frame_meta, đang có 0
+  [WARN] S02_rgb.png: ghế rear_left có nhiều box cùng loại: ['person', 'person']
+Kết quả: 1 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
